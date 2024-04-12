@@ -1,21 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Hero from '../Hero/Hero';
-import CardSection from '../CardSection/CardSection';
+import Sliders from '../Slider/Sliders';
 import './MainContent.css';
 
 function MainContent() {
-  const forYouCards = [
-    { title: 'Card Title 1', description: 'Description here' },
-    { title: 'Card Title 2', description: 'Description here' },
-    // Add more cards...
-  ];
+  const [slidesData, setSlidesData] = useState([]);
 
+  useEffect(() => {
+    fetch('../data/slides.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Data fetched:', data);
+        setSlidesData(data);
+      })
+      .catch(error => console.error('Error fetching slides data:', error));
+  }, []);
+  
   return (
-    <main className="main-content">
+    <div className="main-content">
       <Hero />
-      <CardSection title="For you" cards={forYouCards} />
-      {/* Add other sections as needed */}
-    </main>
+      {slidesData.length > 0 && <Sliders slides={slidesData} />}
+      {/* Other components can be added here */}
+    </div>
   );
 }
 

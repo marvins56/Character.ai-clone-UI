@@ -1,0 +1,17 @@
+.content-slider .slick-slide {
+    padding: 10px; /* Add space around items */
+  }
+  
+  /* Adjust card styles if necessary */
+  .content-slider .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #333; /* Or any other color */
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto; /* This centers the card in the slide */
+    max-width: 300px; /* Or your preferred max width */
+  }
+  
+  /* Add more styles based on your specific design requirements */
+  
