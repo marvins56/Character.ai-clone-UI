@@ -1,0 +1,13 @@
+.card-section {
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .card-section h2 {
+    color: white;
+  }
+  
