@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Exploring the Mountains",
+      "author": "John Doe",
+      "description": "Join us on a journey to the mountains where adventure awaits.",
+      "commentCount": 15
+    },
+    {
+      "id": 2,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "City Life",
+      "author": "Jane Smith",
+      "description": "Discover the hustle and bustle of city life and all its offerings.",
+      "commentCount": 8
+    },
+    {
+      "id": 3,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Serenity of the Seas",
+      "author": "Emily Johnson",
+      "description": "Find tranquility in the vastness of the sea. Embark on a cruise to remember.",
+      "commentCount": 5
+    },
+    {
+      "id": 4,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Forest Retreat",
+      "author": "Chris Wayne",
+      "description": "Escape to the forest for a retreat into nature's embrace.",
+      "commentCount": 12
+    },
+    {
+      "id": 5,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Historical Journey",
+      "author": "Laura Brehm",
+      "description": "Step back in time and explore historical sites full of stories.",
+      "commentCount": 20
+    },
+    {
+      "id": 6,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Desert Adventures",
+      "author": "Omar Ali",
+      "description": "Experience the thrill of the desert and its endless dunes.",
+      "commentCount": 9
+    },
+    {
+      "id": 7,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Culinary Delights",
+      "author": "Anna Sung",
+      "description": "Taste your way through culinary delights and local cuisines.",
+      "commentCount": 22
+    },
+    {
+      "id": 8,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Wildlife Safari",
+      "author": "Gary Steward",
+      "description": "Get close to wildlife with an unforgettable safari experience.",
+      "commentCount": 18
+    },
+    {
+      "id": 9,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Urban Exploring",
+      "author": "Isabella Martin",
+      "description": "Uncover the hidden gems in the urban jungle.",
+      "commentCount": 11
+    },
+    {
+      "id": 10,
+      "image": "https://img.freepik.com/free-photo/medium-shot-contemplative-man-seaside_23-2150531618.jpg?t=st=1712951189~exp=1712954789~hmac=6170f275b5ae1f5255b303759582f82c65d78be393abebfd52dca2fc850126d5&w=1380",
+      "header": "Art and Culture",
+      "author": "Sophie Turner",
+      "description": "Immerse yourself in the local art and culture on this enlightening tour.",
+      "commentCount": 14
+    }
+  ]
+  

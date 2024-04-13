@@ -5,10 +5,14 @@
   padding: 20px;
   background-color: #1e1e1e;
 }
-
-.welcome-column {
-  /* Additional styles if needed */
+.welcome-column h2 {
+  font-size: 1.5rem;
+  font-weight: normal; /* Less emphasis compared to bold */
+  letter-spacing: 0.05em; /* Spacing between letters */
+  color: #ccc; /* Lighter text color */
 }
+
+
 
 .search-column {
   margin-right: 50px;

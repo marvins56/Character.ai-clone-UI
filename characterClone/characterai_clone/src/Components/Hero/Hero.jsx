@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className="hero">
       <div className="welcome-column">
-        <h2>Welcome back,</h2>
+        <h2>Welcome back</h2>
       </div>
       <div className="search-column">
         <div className="search-container">

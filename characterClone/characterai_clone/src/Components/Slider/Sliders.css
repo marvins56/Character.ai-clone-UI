@@ -1,0 +1,75 @@
+.for-you-slider .slick-list {
+    padding: 0 10px; /* Adjust padding for the slider viewport */
+  }
+  
+  .for-you-slider .slick-slide {
+    padding: 15px; /* Spacing between slides */
+    box-sizing: border-box;
+  }
+  
+  /* Style for each card within the slides */
+  .for-you-slider .card {
+    display: flex;
+    background-color: #2a2a2a; /* Background color for the cards */
+    border-radius: 8px; /* Rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    overflow: hidden; /* Ensures the content fits within the border-radius */
+  }
+  
+  .for-you-slider .card-image {
+    width: 50%; /* Adjust based on your design */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    border-right: 1px solid #333; /* Separator between image and text */
+  }
+  
+  .for-you-slider .card-body {
+    padding: 20px; /* Padding inside the card for text */
+    flex: 1; /* Takes up the remaining space */
+    display: flex;
+    flex-direction: column; /* Stack the text and 'Read More' link */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .for-you-slider .card-title,
+  .for-you-slider .card-text {
+    color: #ffffff; /* Text color */
+    margin: 5px 0; /* Spacing between text elements */
+  }
+  
+  .for-you-slider .read-more-link {
+    align-self: flex-start; /* Align 'Read More' link to the start */
+    color: #00BCD4; /* Color for the 'Read More' link */
+    text-decoration: none; /* No underline */
+    display: inline-flex; /* Inline-flex for aligning icon with text */
+    align-items: center; /* Align items center for icon alignment */
+    margin-top: auto; /* Pushes the link to the bottom */
+  }
+  
+  .for-you-slider .read-more-link .arrow-icon {
+    font-size: 1.2rem; /* Size of the arrow icon */
+    margin-left: 8px; /* Space between text and icon */
+  }
+  
+  /* Slick slider dots customization */
+  .for-you-slider .slick-dots li button:before {
+    font-size: 12px;
+    color: white;
+  }
+  
+  .for-you-slider .slick-dots li.slick-active button:before {
+    color: #00BCD4; /* Active dot color */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .for-you-slider .card {
+      flex-direction: column; /* Stack image and text on top of each other */
+    }
+  
+    .for-you-slider .card-image {
+      width: 100%; /* Full width for smaller screens */
+      border-right: none; /* Remove border */
+      border-bottom: 1px solid #333; /* Add border at the bottom */
+    }
+  }
+  
