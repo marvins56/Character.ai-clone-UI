@@ -4,7 +4,6 @@ import MainContent from './Components/MainContent/MainContent';
 import './App.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import ContentSlider from './Components/ContentSlider/ContentSlider';
 
 
 

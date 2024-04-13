@@ -1,17 +1,23 @@
 import React from 'react';
+import { FaComment } from 'react-icons/fa'; // Importing Font Awesome Comment icon
+
 import './Card.css';
 
-function Card({ image, title, description }) {
+
+const Card = ({ imageUrl, title, author, description, numberOfComments }) => {
   return (
     <div className="card">
-      <img className="card-image" src={image} alt={title} />
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{description}</p>
-        {/* Additional content and styling */}
-      </div>
+        <img src={imageUrl} className="card-image" alt={title} />
+        <div className="card-content">
+            <h3 className="card-title">{title}</h3>
+            <p className="card-author">By {author}</p>
+            <p className="card-description">{description}</p>
+            <div className="card-comments" onClick={() => alert('Navigate to comments or show modal')}>
+                <FaComment /> <span>{numberOfComments}</span>
+            </div>
+        </div>
     </div>
   );
-}
+};
 
 export default Card;
