@@ -1,5 +1,19 @@
-.app {
-  display: flex;
-  color: white;
-  background-color: #1e1e1e;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+html {
+  box-sizing: border-box;
 }
