@@ -12,7 +12,7 @@ To get started with this project, clone the repository and install the dependenc
 
 ```bash
 # Clone the repository
-git clone [https://your-repository-url.com/your-project-name.git](https://github.com/marvins56/Character.ai-clone-UI.git)
+git clone https://github.com/marvins56/Character.ai-clone-UI.git
 cd your-project-name
 
 # Install dependencies
