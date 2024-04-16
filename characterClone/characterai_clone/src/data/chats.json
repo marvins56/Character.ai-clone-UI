@@ -1,0 +1,95 @@
+{
+  "chatMates": [
+    {
+      "userId": 2,
+      "name": "Vida Life Coach",
+      "tag": "MarrieLovesMatcha",
+      "description": "Empathetic life coach who is kind and wise.",
+      "imageUrl": "",
+      "messages": [
+        {
+          "userId": 2,
+          "message": "Hello there! How are you doing today?"
+        },
+        {
+          "userId": 1,
+          "message": "Hi, I'm doing well, thank you for asking."
+        },
+        {
+          "userId": 2,
+          "message": "That's great to hear! Do you have any specific goals or challenges you'd like to discuss today?"
+        },
+        {
+          "userId": 1,
+          "message": "Actually, I've been feeling a bit overwhelmed with work lately."
+        },
+        {
+          "userId": 2,
+          "message": "It's completely normal to feel overwhelmed at times. Have you tried any strategies to manage your workload?"
+        },
+        {
+          "userId": 1,
+          "message": "I've been trying to prioritize tasks and delegate when possible, but it still feels like a lot."
+        },
+        {
+          "userId": 2,
+          "message": "That's a good start. Remember to also take breaks and practice self-care to avoid burnout. We can work together to come up with a plan to better manage your workload if you'd like."
+        },
+        {
+          "userId": 1,
+          "message": "Thank you, I appreciate your support. Yes, let's come up with a plan."
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "name": "Martin",
+      "tag": "@martinsLee",
+      "description": "Your programming Enthusiast",
+
+      "imageUrl": "",
+      "messages": [
+        {
+          "userId": 1,
+          "message": "Hey Martin! How's it going?"
+        },
+        {
+          "userId": 3,
+          "message": "Hey tibdan! I'm doing well, thanks. How about you?"
+        },
+        {
+          "userId": 1,
+          "message": "I'm good, thanks. Have you been working on anything interesting lately?"
+        },
+        {
+          "userId": 3,
+          "message": "Yeah, I've been diving into some machine learning projects. It's been challenging but really exciting."
+        },
+        {
+          "userId": 1,
+          "message": "That sounds fascinating! I've been brushing up on my web development skills myself."
+        },
+        {
+          "userId": 3,
+          "message": "Nice! Any specific technologies or frameworks you're focusing on?"
+        },
+        {
+          "userId": 1,
+          "message": "I've been experimenting with React for frontend and Node.js for backend. How about you?"
+        },
+        {
+          "userId": 3,
+          "message": "I've been using Python for most of my machine learning work, along with TensorFlow and scikit-learn."
+        },
+        {
+          "userId": 1,
+          "message": "Those are some powerful tools. We should collaborate on a project sometime!"
+        },
+        {
+          "userId": 3,
+          "message": "Absolutely! I'd love to. Let's keep in touch and brainstorm some ideas."
+        }
+      ]
+    }
+  ]
+}
